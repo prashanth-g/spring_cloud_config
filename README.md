@@ -16,4 +16,4 @@ Centralized properties will be loaded from https://github.com/prashanth-g/spring
 
 ## Refresh config changes 
 
-    $ curl http://localhost:8080/actuator/refresh --request POcdST -d {} -H "Content-Type: application/json"
+    $ curl http://localhost:8080/actuator/refresh --request POST -d {} -H "Content-Type: application/json"
